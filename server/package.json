@@ -1,0 +1,29 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.js",
+    "scripts": {
+        "dev": "cross-env NODE_OPTIONS=--import=./instrument.js nodemon src/server.js",
+        "start": "cross-env NODE_OPTIONS=--import=./instrument.js node src/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@clerk/express": "^2.0.2",
+        "@sentry/node": "^10.42.0",
+        "cors": "^2.8.6",
+        "dotenv": "^17.3.1",
+        "express": "^5.2.1",
+        "helmet": "^8.1.0",
+        "inngest": "^3.52.6",
+        "mongoose": "^9.2.4",
+        "stream-chat": "^9.35.1"
+    },
+    "devDependencies": {
+        "cross-env": "^10.1.0",
+        "nodemon": "^3.1.14"
+    }
+}
