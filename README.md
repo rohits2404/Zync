@@ -17,7 +17,7 @@ Highlights:
 
 ## 🧪 .env Setup
 
-### Backend (`/backend`)
+### Backend (`/server`)
 
 ```
 PORT=5000
@@ -39,7 +39,7 @@ INNGEST_SIGNING_KEY=your_inngest_signing_key_here
 CLIENT_URL=http://localhost:5173
 ```
 
-### Frontend (`/frontend`)
+### Frontend (`/client`)
 
 ```
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
@@ -53,7 +53,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 ## 🔧 Run the Backend
 
 ```bash
-cd backend
+cd server
 npm install
 npm run dev
 ```
@@ -61,7 +61,7 @@ npm run dev
 ## 💻 Run the Frontend
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run dev
 ```
